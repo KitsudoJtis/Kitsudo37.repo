@@ -1,5 +1,25 @@
 Package: com.k37.axon
 Version: 1.6
+Architecture: iphoneos-arm64
+Maintainer: K37 Repo
+Installed-Size: 652
+Depends: mobilesubstrate, firmware (>= 16.0)
+Conflicts: io.ominousness.stackxi, com.thomasfinch.priorityhub, com.ioscreatix.intelixbeta, com.ioscreatix.intelix, com.spiritoflogic.ncunify, com.spiritoflogic.unifyx, com.hidan.nclink10, org.coolstar.ventana-modern, org.coolstar.ventana, org.s1ris.spinxi
+Filename: ./debs/com.k37.axon_1.6_iphoneos-arm64.deb
+Size: 151772
+MD5sum: da838134db5e44b195873fead350afc4
+SHA1: fb1c18e9b116eb10888b536a76615b49cafdb940
+SHA256: bd38110a4a0130a5e0748bb0b5bac7349ce16be675526a301053a0901350966f
+Section: Tweaks
+Description: Gom nhóm và quản lý thông báo gọn gàng trên màn hình khóa cho iOS.
+Author: Nepeta & Kitsudo
+Depiction: https://k37ios.pages.dev/info/depictions/Axon.html
+Icon: https://k37ios.pages.dev/assets/Axon.png
+Name: Axon
+Sileodepiction: https://k37ios.pages.dev/info/sileodepictions/Axon.json
+
+Package: com.k37.axon
+Version: 1.6
 Architecture: iphoneos-arm64e
 Maintainer: K37 Repo
 Installed-Size: 652
@@ -11,26 +31,6 @@ Size: 154044
 MD5sum: 4576d38058a52b29610484fdea4a4991
 SHA1: a2439037b35a8ead6233f2d31ae781b5a7deb6bd
 SHA256: 0842f6e2623a0a90b2ebfa2f45782bb9ee480b504d5723c4016773c0712db78b
-Section: Tweaks
-Description: Gom nhóm và quản lý thông báo gọn gàng trên màn hình khóa cho iOS.
-Author: Nepeta & Kitsudo
-Depiction: https://k37ios.pages.dev/info/depictions/Axon.html
-Icon: https://k37ios.pages.dev/assets/Axon.png
-Name: Axon
-Sileodepiction: https://k37ios.pages.dev/info/sileodepictions/Axon.json
-
-Package: com.k37.axon
-Version: 1.6
-Architecture: iphoneos-arm64
-Maintainer: K37 Repo
-Installed-Size: 652
-Depends: mobilesubstrate, firmware (>= 16.0)
-Conflicts: io.ominousness.stackxi, com.thomasfinch.priorityhub, com.ioscreatix.intelixbeta, com.ioscreatix.intelix, com.spiritoflogic.ncunify, com.spiritoflogic.unifyx, com.hidan.nclink10, org.coolstar.ventana-modern, org.coolstar.ventana, org.s1ris.spinxi
-Filename: ./debs/com.k37.axon_1.6_iphoneos-arm64.deb
-Size: 151772
-MD5sum: da838134db5e44b195873fead350afc4
-SHA1: fb1c18e9b116eb10888b536a76615b49cafdb940
-SHA256: bd38110a4a0130a5e0748bb0b5bac7349ce16be675526a301053a0901350966f
 Section: Tweaks
 Description: Gom nhóm và quản lý thông báo gọn gàng trên màn hình khóa cho iOS.
 Author: Nepeta & Kitsudo
@@ -279,17 +279,16 @@ Sileodepiction: https://k37ios.pages.dev/info/sileodepictions/SortingSwipe.json
 
 Package: com.kitsudo.nexusboard
 Version: 4.7
-Architecture: iphoneos-arm64e
+Architecture: iphoneos-arm64
 Maintainer: JTISVN Repo
 Installed-Size: 3244
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), oldabi
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), oldabi-stub
 Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe, com.jtisvn.lunartimebar, com.den.locktouchx, com.bvn.lunartime, com.bvn.ghostboard.rl, com.bvn.ghostboard, com.bvn.infobattery, com.bvn.infobattery-r2, me.luki.april, com.jtis.april, com.bienvannhat.april
-Filename: ./debs/com.kitsudo.nexusboard_4.7_iphoneos-arm64e.deb
-Size: 769604
-MD5sum: a19605910e37e2db8fdcf8bb8e09a97a
-SHA1: 643f7e8f14c4612a99345e820e277761cc5a52a4
-SHA256: c0ac63c3ba6ad302898970c35fd21386882d1927c6613edcc1b2660618936b7c
+Filename: ./debs/com.kitsudo.nexusboard_4.7_iphoneos-arm64.deb
+Size: 769132
+MD5sum: 7f270352d68c780bede79e2152881d37
+SHA1: 83f9cbddd52b7fef4d8280cc9ccd3e5949a0116e
+SHA256: 0a56fd0f7b9863cc921fad21e95cfab1e31d22937c80f4a19b11e59d61b0dee2
 Section: Tweaks
 Homepage: https://jtisvn.github.io/
 Description: Customize SpringBoard with many useful features for iOS.
@@ -302,16 +301,17 @@ Sileodepiction: https://k37ios.pages.dev/info/sileodepictions/NexusBoard.json
 
 Package: com.kitsudo.nexusboard
 Version: 4.7
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm64e
 Maintainer: JTISVN Repo
 Installed-Size: 3244
-Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), oldabi-stub
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), oldabi
 Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe, com.jtisvn.lunartimebar, com.den.locktouchx, com.bvn.lunartime, com.bvn.ghostboard.rl, com.bvn.ghostboard, com.bvn.infobattery, com.bvn.infobattery-r2, me.luki.april, com.jtis.april, com.bienvannhat.april
-Filename: ./debs/com.kitsudo.nexusboard_4.7_iphoneos-arm64.deb
-Size: 769132
-MD5sum: 7f270352d68c780bede79e2152881d37
-SHA1: 83f9cbddd52b7fef4d8280cc9ccd3e5949a0116e
-SHA256: 0a56fd0f7b9863cc921fad21e95cfab1e31d22937c80f4a19b11e59d61b0dee2
+Filename: ./debs/com.kitsudo.nexusboard_4.7_iphoneos-arm64e.deb
+Size: 769604
+MD5sum: a19605910e37e2db8fdcf8bb8e09a97a
+SHA1: 643f7e8f14c4612a99345e820e277761cc5a52a4
+SHA256: c0ac63c3ba6ad302898970c35fd21386882d1927c6613edcc1b2660618936b7c
 Section: Tweaks
 Homepage: https://jtisvn.github.io/
 Description: Customize SpringBoard with many useful features for iOS.
@@ -369,16 +369,15 @@ Sileodepiction: https://k37ios.pages.dev/info/sileodepictions/NexusBoard.json
 
 Package: com.kitsudo.tiktokautoswipe
 Version: 1.0.0
-Architecture: iphoneos-arm64e
+Architecture: iphoneos-arm64
 Maintainer: Kitsudo
 Installed-Size: 76
-Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate | libhooker | substitute
-Filename: ./debs/com.kitsudo.tiktokautoswipe_1.0.0_iphoneos-arm64e.deb
-Size: 5488
-MD5sum: 198dce6598561ad34c8c426cb916a43a
-SHA1: 134612a540db0322349afd5988f119e4995b1399
-SHA256: 27ca83d45fb5708375ecdcf5f5e0312d37c79d80d61ef97b62661dd426827990
+Filename: ./debs/com.kitsudo.tiktokautoswipe_1.0.0_iphoneos-arm64.deb
+Size: 5344
+MD5sum: 502fc8a9d73bdbc17385f4302ed73240
+SHA1: 329acc101f9dac55ef9addd4f4a224dfd81b5655
+SHA256: 2f079c9bbd448733d743dcee67c6dafda834a7fb804e6564a839dfcb2582e159
 Section: Tweaks
 Description: Auto swipe to next TikTok video when current video ends
 Author: Kitsudo
@@ -389,15 +388,16 @@ Sileodepiction: https://k37ios.pages.dev/info/sileodepictions/TikTokAutoSwipe.js
 
 Package: com.kitsudo.tiktokautoswipe
 Version: 1.0.0
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm64e
 Maintainer: Kitsudo
 Installed-Size: 76
+Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate | libhooker | substitute
-Filename: ./debs/com.kitsudo.tiktokautoswipe_1.0.0_iphoneos-arm64.deb
-Size: 5344
-MD5sum: 502fc8a9d73bdbc17385f4302ed73240
-SHA1: 329acc101f9dac55ef9addd4f4a224dfd81b5655
-SHA256: 2f079c9bbd448733d743dcee67c6dafda834a7fb804e6564a839dfcb2582e159
+Filename: ./debs/com.kitsudo.tiktokautoswipe_1.0.0_iphoneos-arm64e.deb
+Size: 5488
+MD5sum: 198dce6598561ad34c8c426cb916a43a
+SHA1: 134612a540db0322349afd5988f119e4995b1399
+SHA256: 27ca83d45fb5708375ecdcf5f5e0312d37c79d80d61ef97b62661dd426827990
 Section: Tweaks
 Description: Auto swipe to next TikTok video when current video ends
 Author: Kitsudo
